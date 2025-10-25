@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cornelius LKO - Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #111;
+    }
+    header, nav, section, article, footer {
+      padding: 1.25rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      background: #f6f7fb;
+      border-bottom: 1px solid #e6e9f0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+    nav a:hover { text-decoration: underline; }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .project {
+      border: 1px solid #e6e9f0;
+      padding: 0.75rem;
+      border-radius: 8px;
+      background: #fff;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 1px solid #e6e9f0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cornelius LKO</h1>
+    <p>Front-end developer &amp; aspiring UI engineer — building clean, accessible web experiences.</p>
+  </header>
+
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Hello — I’m Cornelius, a front-end developer learning modern web development with a focus on responsive design,
+        accessible HTML, and lightweight performance. I enjoy turning design ideas into working interfaces and improving user experience.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio showcasing projects, built with HTML, CSS and a little JavaScript for interactions.</p>
+          <a href="https://github.com/CorneliusLKO3728/My_First_Portfolio" target="_blank" rel="noopener noreferrer">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am currently learning front-end development, focusing on HTML, CSS, JavaScript and modern tooling (Vite, Git).
+        I enjoy problem-solving, clean code, and improving accessibility for all users.
+      </p>
+      <ul>
+        <li>Skills: HTML5, CSS3, JavaScript, Git</li>
+        <li>Learning: React, Tailwind CSS, responsive patterns</li>
+        <li>Hobbies: Photography, reading lightnovels</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="Lukecorners6@gmail.com">Lukecorners6@gmail.com</a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        <a href="https://github.com/CorneliusLKO3728" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Cornelius LKO</p>
+  </footer>
+
+</body>
+</html>
